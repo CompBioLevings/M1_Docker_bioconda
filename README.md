@@ -2,7 +2,7 @@
 
 This is a BASH script and Dockerfile for creating and running a Docker container for bioconda on an M1 Macbook.
 
-I read a bunch of posts/content online that assured that Rosetta on M1 can run Anaconda/Miniconda great (and it does), but I ran into trouble when trying to install certain packages from ([bioconda](https://bioconda.github.io)).  After reinstalling Anaconda a couple times, and even reinstalling MacOS with/without XCode commandline tools/Homebrew a couple times, I finally decided to try a Docker container... and it worked!  Hopefully this helps as a starting point to help others get an M1 set up to use computational biology tools from bioconda.
+I read a bunch of posts/content online that assured that Rosetta on M1 can run Anaconda/Miniconda great (and it does), but I ran into trouble when trying to install certain packages from ([bioconda](https://bioconda.github.io)).  After reinstalling Anaconda a couple times, and even reinstalling MacOS with/without XCode commandline tools and/or Homebrew a couple times, I finally decided to try a Docker container... and it worked!  Hopefully this helps as a starting point to help others get an M1 set up to use computational biology tools from bioconda.
 
 ---------------------------------------------------------------------------------------------------
 
