@@ -8,7 +8,7 @@ I read a bunch of posts/content online that assured that Rosetta on M1 can run A
 
 To use this code:
 
-The included Docker file uses YAML environment files where I *already* found the correct package versions to create Anaconda environments with the tools I need.  So, to set up your Docker container the first time, you should instead you comment out (#) the lines using the YAML files, and instead build the environments using Mamba/Anaconda (un-comment and update the commented-out examples shown after the environment install lines).  
+The included Docker file uses YAML environment files where I *already* found the correct package versions to create Anaconda environments with the tools I need.  So, to set up your Docker container the first time, you should instead comment out (#) the lines using the YAML files, and instead build the environments using Mamba/Anaconda (un-comment and update the commented-out examples shown after the environment install lines).  
 
 Then, the Docker container can be built and run using the code in the included shell script.  After the Docker container is built, you can then run it and export the environments to YAML files to later 'restore' your Docker container if needed...  An example of this process is included at the end of the BASH script.  Doing things this way isn't a necessity, but would save a little time compared to making Anaconda/Mamba resolve dependencies every time.
 
